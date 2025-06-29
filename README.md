@@ -29,7 +29,3 @@ A real-time, lane-aware pedestrian tracking system that leverages state-of-the-a
 | OpenCV         | Frame manipulation and image processing     |
 | Gradio         | Interactive frontend for model deployment   |
 | Python         | Core language powering the system           |
-
----
-
-## 📂 Directory Structure
