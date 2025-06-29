@@ -3,7 +3,7 @@
 A real-time, lane-aware pedestrian tracking system that leverages state-of-the-art computer vision (CV) and deep learning models for smart urban monitoring. Built with **YOLOv8n**, **DeepSORT**, and an intuitive **Gradio** interface, this project enables accurate pedestrian detection, multi-object tracking, and dynamic lane-based analytics—all deployable on **Hugging Face Spaces**.
 
 ## 📸 Demo
-![Output Screenshot]()
+![Output Screenshot](scrshot.png)
 
 
 > Try the live demo on [Hugging Face Spaces](https://huggingface.co/spaces/karan7488/Pedestrian_detection_and_counting)
