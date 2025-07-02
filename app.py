@@ -1,3 +1,4 @@
+# Environment and library setup
 import os
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 
@@ -9,11 +10,19 @@ import numpy as np
 from ultralytics import YOLO
 from deep_sort_realtime.deepsort_tracker import DeepSort
 
+# Model and traker Initialization
 model = YOLO("yolov8n.pt")
+
+#Fuses model layers (e.g., Conv + BatchNorm) for speedup.
 model.fuse()
+
+#- Initializes DeepSORT with a track lifespan of 30 frames.
 tracker = DeepSort(max_age=30)
+
+# determined objects for track
 TARGET_CLASSES = {"car", "motorcycle", "bus", "truck", "person"}
 
+#draw custom lane polygone
 LANE_POLYGON = np.array([[120, 250], [500, 250], [700, 384], [5, 384]], dtype=np.int32)
 
 def is_in_lane(x, y):
