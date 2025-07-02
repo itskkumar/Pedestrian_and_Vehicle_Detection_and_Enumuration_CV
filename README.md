@@ -6,7 +6,7 @@ A real-time, lane-aware pedestrian tracking system that leverages state-of-the-a
 ![Output Screenshot](scrshot.png)
 
 
-> Try the live demo on [Hugging Face Spaces](https://huggingface.co/spaces/karan7488/Pedestrian_detection_and_counting)
+> Try live demo on [Hugging Face Spaces](https://huggingface.co/spaces/karan7488/Pedestrian_detection_and_counting)
 
 ---
 
